@@ -73,28 +73,3 @@ src/
 ├── Docente.java
 └── Main.java
 
----
-
-# Diagrama UML
-
-              Persona
---------------------------------
-- cedula : String
-- nombreCompleto : String
-- edad : int
---------------------------------
-+ mostrarDatos()
-
-          ▲
-          │
- ┌────────┴────────┐
- │                 │
-
-Estudiante       Docente
----------------- ----------------
-- carrera        - asignatura
----------------- ----------------
-+ mostrarDatos() + mostrarDatos()
-
----
-
